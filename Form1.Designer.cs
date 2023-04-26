@@ -50,9 +50,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(253, 19);
+            button1.Location = new Point(90, 12);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(285, 39);
             button1.TabIndex = 1;
             button1.Text = "開始";
             button1.UseVisualStyleBackColor = true;
@@ -60,9 +60,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(398, 19);
+            button2.Location = new Point(399, 12);
             button2.Name = "button2";
-            button2.Size = new Size(75, 23);
+            button2.Size = new Size(310, 39);
             button2.TabIndex = 2;
             button2.Text = "終了";
             button2.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             Controls.Add(button1);
             Controls.Add(formsPlot1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "プロット";
             ResumeLayout(false);
         }
 
